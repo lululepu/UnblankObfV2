@@ -21,6 +21,7 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/lululepu/UnblankObfV2.git
 cd UnblankObfV2
+pip install -r requirements.txt
 ```
 
 ## Usage
