@@ -89,7 +89,7 @@ def main() -> None:
 
   deobfuscated = deobf(obfuscated)
 
-  with open(output, 'w') as f:
+  with open(output, 'w', errors='replace') as f:
     f.write(deobfuscated)
 
   print(Colors.purple+f'[+] Succesfully Deobfuscated To {output} !')
